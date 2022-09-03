@@ -46,7 +46,7 @@ const style = StyleSheet.create({
   },
 });
 
-function Photo(props) {
+function Photo(props) { //사진의 함수를 넘겨 받아, 사진을 넣을 함수
   let dollmg = '';
   if (props.type ==='1'){
     dollmg = require('./assets/1.jpeg');
